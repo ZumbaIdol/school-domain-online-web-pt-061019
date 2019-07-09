@@ -21,8 +21,8 @@ class School
   
   def sort 
     hash = {}
-    roster.each do |a, b| 
-    hash[a] = b.sort 
+    roster.each do |key, value| 
+    hash[key] = value.sort 
   end 
   hash
   end
